@@ -1,16 +1,16 @@
 :root {
-  --bg: #ffffff;
-  --bg-alt: #fafafa;
-  --card: #ffffff;
+  --bg: #f3edf8;
+  --bg-alt: #ebe3f4;
+  --card: #fefdff;
   --text: #2d2640;
   --text-soft: #5c5470;
   --primary: #2a1f3d;
   --accent: #9575c8;
   --accent-dark: #6b4aa3;
-  --line: #e8e0f2;
-  --shadow: 0 8px 24px rgba(42, 31, 61, 0.06);
-  --shadow-hover: 0 14px 36px rgba(107, 74, 163, 0.1);
-  --tint: rgba(149, 117, 200, 0.1);
+  --line: #e2d6ee;
+  --shadow: 0 10px 28px rgba(107, 74, 163, 0.09);
+  --shadow-hover: 0 14px 36px rgba(107, 74, 163, 0.12);
+  --tint: rgba(149, 117, 200, 0.12);
 }
 
 *,
@@ -29,7 +29,8 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.72;
-  background: var(--bg);
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(186, 156, 228, 0.35), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(214, 192, 245, 0.45), transparent 50%), var(--bg);
   min-height: 100vh;
 }
 
@@ -49,9 +50,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(107, 74, 163, 0.12);
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(253, 250, 255, 0.88);
 }
 
 .nav {
@@ -342,24 +343,7 @@ a {
   font-weight: 700;
 }
 
-.reveal {
-  opacity: 0;
-  transform: translateY(14px);
-  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1), transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.reveal.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .reveal {
-    opacity: 1;
-    transform: none;
-    transition: none;
-  }
-
   .card:hover,
   .profile-panel:hover {
     transform: none;
