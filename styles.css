@@ -1,16 +1,16 @@
 :root {
-  --bg: #f3edf8;
-  --bg-alt: #ebe3f4;
-  --card: #fefdff;
+  --bg: #edf5fc;
+  --bg-alt: #e2eef8;
+  --card: #fdfeff;
   --text: #2d2640;
   --text-soft: #5c5470;
   --primary: #2a1f3d;
   --accent: #9575c8;
   --accent-dark: #6b4aa3;
-  --line: #e2d6ee;
-  --shadow: 0 10px 28px rgba(107, 74, 163, 0.09);
-  --shadow-hover: 0 14px 36px rgba(107, 74, 163, 0.12);
-  --tint: rgba(149, 117, 200, 0.12);
+  --line: #d5e4f2;
+  --shadow: 0 10px 28px rgba(45, 95, 150, 0.08);
+  --shadow-hover: 0 14px 36px rgba(45, 95, 150, 0.11);
+  --tint: rgba(80, 140, 210, 0.1);
 }
 
 *,
@@ -29,8 +29,8 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.72;
-  background: radial-gradient(1200px 600px at 10% -10%, rgba(186, 156, 228, 0.35), transparent 55%),
-    radial-gradient(900px 500px at 100% 0%, rgba(214, 192, 245, 0.45), transparent 50%), var(--bg);
+  background: radial-gradient(1200px 600px at 10% -10%, rgba(130, 185, 245, 0.32), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(170, 210, 250, 0.42), transparent 50%), var(--bg);
   min-height: 100vh;
 }
 
@@ -50,9 +50,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  border-bottom: 1px solid rgba(107, 74, 163, 0.12);
+  border-bottom: 1px solid rgba(70, 130, 190, 0.14);
   backdrop-filter: blur(10px);
-  background: rgba(253, 250, 255, 0.88);
+  background: rgba(252, 253, 255, 0.9);
 }
 
 .nav {
@@ -83,17 +83,17 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  background: linear-gradient(135deg, #f3e8ff, #faf5ff);
-  border: 1px solid #dcc9f0;
+  background: linear-gradient(135deg, #e8f2fc, #f8fbff);
+  border: 1px solid #c5daf0;
   color: var(--accent-dark);
   font-size: 0.68rem;
   transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(107, 74, 163, 0.15);
+  box-shadow: 0 2px 8px rgba(45, 95, 150, 0.12);
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .nav-logo:hover .logo-badge {
-  background: #efe4fb;
+  background: #e0ecf8;
   transform: translateY(-1px) scale(1.04);
 }
 
@@ -186,7 +186,7 @@ a {
   object-fit: cover;
   object-position: center 15%;
   border: 1px solid var(--line);
-  box-shadow: 0 10px 26px rgba(107, 74, 163, 0.2);
+  box-shadow: 0 10px 26px rgba(45, 95, 150, 0.16);
 }
 
 .profile-panel h1 {
@@ -463,7 +463,7 @@ a {
 
 .pub-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 28px rgba(107, 74, 163, 0.1);
+  box-shadow: 0 12px 28px rgba(45, 95, 150, 0.09);
 }
 
 .pub-item h3 {
@@ -507,8 +507,8 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--accent-dark);
-  background: rgba(149, 117, 200, 0.14);
-  border: 1px solid rgba(149, 117, 200, 0.35);
+  background: rgba(90, 150, 220, 0.12);
+  border: 1px solid rgba(90, 150, 220, 0.32);
   padding: 0.15rem 0.45rem;
   border-radius: 0.35rem;
   margin-right: 0.35rem;
