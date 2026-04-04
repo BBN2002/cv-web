@@ -343,6 +343,10 @@ a {
   font-weight: 700;
 }
 
+.prior-degree {
+  margin-top: 0.7rem;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .card:hover,
   .profile-panel:hover {
