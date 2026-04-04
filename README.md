@@ -1,6 +1,6 @@
 # Beining BAO — Academic homepage
 
-Static academic homepage (layout inspired by [bkzhao.github.io](https://github.com/BKZhao/bkzhao.github.io)): sidebar profile, About, News, Experience, Publications, Projects.
+Static academic homepage: sidebar profile, About, News, Experience, Publications, Projects.
 
 **Repository:** [github.com/BBN2002/cv-web](https://github.com/BBN2002/cv-web)
 
