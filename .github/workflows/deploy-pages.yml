@@ -17,10 +17,10 @@ jobs:
 
       - name: Assemble static site
         run: |
-          mkdir -p site/img
-          cp index.html style.css script.js site/
-          if [ -d img ] && [ "$(ls -A img 2>/dev/null)" ]; then
-            cp -r img/* site/img/
+          mkdir -p site
+          cp index.html styles.css site/
+          if [ -d assets ] && [ "$(ls -A assets 2>/dev/null)" ]; then
+            cp -r assets site/
           fi
           touch site/.nojekyll
 
