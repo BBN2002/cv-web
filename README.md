@@ -15,9 +15,9 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 Open `http://127.0.0.1:8080`.
 
-## Optional avatar
+## Profile photo
 
-Add a square photo as `assets/photo.jpg` and replace the initials block in `index.html` with an `<img class="avatar-photo" src="assets/photo.jpg" alt="Beining BAO" />` inside `.avatar-wrap` if desired.
+Side-bar portrait: `assets/profile.png` (referenced in `index.html`). Replace the file to update the photo; keep the same filename or update the `src` path.
 
 ## Deploy
 
