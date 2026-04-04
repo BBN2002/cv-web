@@ -18,7 +18,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p site
-          cp index.html styles.css site/
+          cp index.html styles.css script.js site/
           if [ -d assets ] && [ "$(ls -A assets 2>/dev/null)" ]; then
             cp -r assets site/
           fi

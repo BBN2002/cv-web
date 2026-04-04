@@ -39,7 +39,7 @@
 
     <main id="top" class="page-shell">
       <div class="page-grid">
-        <aside class="profile-panel">
+        <aside class="profile-panel reveal">
           <div class="avatar-wrap">
             <img
               class="avatar-photo"
@@ -84,17 +84,30 @@
         </aside>
 
         <section class="content-panel">
-          <article id="about" class="card">
+          <article id="about" class="card reveal">
             <h2><i class="fa-regular fa-circle-user"></i> About</h2>
             <p>
               <strong>MSc in Data Science</strong> (Aug 2025 – Jun 2026),
               <strong>City University of Hong Kong</strong>; <strong>Research Assistant</strong> (from Jan 2026),
-              <strong>HKAI-Sci</strong>. Work sits at the intersection of <strong>life sciences</strong> and AI for
-              Science—particularly how machine learning can support discovery and decision-making in biomedicine and
-              broader health contexts. Methodologically, the emphasis is on
-              <strong>large-scale recommendation systems and language models</strong>, backed by careful implementation,
-              empirical evaluation, and reproducible research code.
+              <strong>HKAI-Sci</strong>.
             </p>
+            <div class="about-research">
+              <p class="about-research-label">Research focus</p>
+              <ul class="research-list">
+                <li>
+                  <strong class="research-accent">Life sciences &amp; health</strong> — AI to accelerate discovery and
+                  informed decisions in biomedicine and related health settings.
+                </li>
+                <li>
+                  <strong class="research-accent">Models</strong> — Large-scale recommendation systems and language
+                  models.
+                </li>
+                <li>
+                  <strong class="research-accent">Engineering</strong> — Implementation, experiments, and reproducible
+                  research code.
+                </li>
+              </ul>
+            </div>
             <p>
               Advisors:
               <a class="advisor-link" href="https://morin.wang/" target="_blank" rel="noopener noreferrer"
@@ -115,7 +128,7 @@
             </p>
           </article>
 
-          <article id="news" class="card">
+          <article id="news" class="card reveal">
             <h2><i class="fa-regular fa-newspaper"></i> News</h2>
             <div class="news-list">
               <div class="news-item">
@@ -142,7 +155,7 @@
             </div>
           </article>
 
-          <article id="experience" class="card">
+          <article id="experience" class="card reveal">
             <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
             <div class="exp-list">
               <div class="exp-item">
@@ -179,7 +192,7 @@
             </div>
           </article>
 
-          <article id="publications" class="card">
+          <article id="publications" class="card reveal">
             <h2><i class="fa-solid fa-book-open"></i> Publications</h2>
 
             <h3 class="subhead">Published &amp; accepted</h3>
@@ -289,7 +302,7 @@
             </div>
           </article>
 
-          <article id="projects" class="card">
+          <article id="projects" class="card reveal">
             <h2><i class="fa-solid fa-flask"></i> Projects &amp; honours</h2>
             <div class="exp-list">
               <div class="exp-item">
@@ -339,5 +352,6 @@
         >
       </p>
     </footer>
+    <script src="script.js" defer></script>
   </body>
 </html>
