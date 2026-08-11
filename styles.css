@@ -456,6 +456,10 @@ a {
   color: var(--primary);
 }
 
+.section-subhead {
+  margin-top: 1rem;
+}
+
 .pub-list {
   display: grid;
   gap: 0.75rem;
