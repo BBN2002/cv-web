@@ -3,3 +3,6 @@ Thumbs.db
 *.log
 BaoBeining_中文CV_CN.docx
 tmp/
+
+# Chinese CV PDF contains personal ID / PII — keep local only
+output/pdf/BaoBeining_CV_CN.pdf
